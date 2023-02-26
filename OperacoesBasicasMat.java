@@ -27,29 +27,29 @@ public class OperacoesBasicasMat {
 	 }
 	    
 	public static void main(String[] args) {
-		double num1, num2, resultadoAdicao, resultadoSubtracao, resultadoMultiplicacao, resultadoDivisao;   
+ 		double num1, num2, resultadoAdicao, resultadoSubtracao, resultadoMultiplicacao, resultadoDivisao;   
 		Scanner lerTeclado = new Scanner(System.in);
 
-        System.out.print("Digite o primeiro número: ");
-        num1 = lerTeclado.nextDouble();
+        	System.out.print("Digite o primeiro número: ");
+        	num1 = lerTeclado.nextDouble();
 
-        System.out.print("Digite o segundo número: ");
-        num2 = lerTeclado.nextDouble();
+        	System.out.print("Digite o segundo número: ");
+        	num2 = lerTeclado.nextDouble();
 
-        resultadoAdicao = adicao(num1, num2);
-        resultadoSubtracao = subtracao(num1, num2);
-        resultadoMultiplicacao = multiplicacao(num1, num2);
-        resultadoDivisao = divisao(num1, num2);
+        	resultadoAdicao = adicao(num1, num2);
+        	resultadoSubtracao = subtracao(num1, num2);
+        	resultadoMultiplicacao = multiplicacao(num1, num2);
+        	resultadoDivisao = divisao(num1, num2);
 
-        System.out.println("Resultado da Adição: " + resultadoAdicao);
-        System.out.println("Resultado da Subtração: " + resultadoSubtracao);
-        System.out.println("Resultado da Multiplicação: " + resultadoMultiplicacao);
+        	System.out.println("Resultado da Adição: " + resultadoAdicao);
+        	System.out.println("Resultado da Subtração: " + resultadoSubtracao);
+        	System.out.println("Resultado da Multiplicação: " + resultadoMultiplicacao);
         
-        if(resultadoDivisao != -1) {
-        	System.out.println("Resultado da Divisão: " + resultadoDivisao);
-        }
+        	if(resultadoDivisao != -1) {
+        		System.out.println("Resultado da Divisão: " + resultadoDivisao);
+        	}
         
-        lerTeclado.close();
+        	lerTeclado.close();
 	}
 
 }
